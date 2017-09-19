@@ -2,13 +2,7 @@
 
 node-atbcoin is a simple wrapper for the ATBCoin client's JSON-RPC API.
 
-If starting a new project, I highly encourage you to take a look at the more modern [bitcoin-core](https://github.com/seegno/bitcoin-core), which features:
-* ES6 support
-* optional promise support
-* support for newer REST API, in addition to RPC methods
-
-The API is equivalent to the API document [here](https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list).
-The methods are exposed as lower camelcase methods on the `bitcoin.Client`
+The methods are exposed as lower camelcase methods on the `atbcoin.Client`
 object, or you may call the API directly using the `cmd` method.
 
 ## Install

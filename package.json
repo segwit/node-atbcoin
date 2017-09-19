@@ -1,16 +1,14 @@
 {
-  "name": "atbcoin",
+  "name": "node-atbcoin",
   "description": "Communicate with atbcoind via JSON-RPC",
-  "version": "3.0.1",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "keywords": [
     "atbcoin",
     "rpc"
   ],
-  "author": "Bill Casarin <bill@casarin.ca> (jb55.com)",
-  "contributors": [
-    "Sean Lavine <sean@eternalrise.com>"
-  ],
+  "author": "Segwit <dev.segwitcoin@gmail.com>",
+  "contributors": [],
   "dependencies": {},
   "devDependencies": {
     "clone": "^1.0.2",
